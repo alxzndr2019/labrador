@@ -7,7 +7,7 @@ const teamSchema = new Schema({
   type: {
     type: String,
     default: "Solo",
-    enum: ["Solo", "Duo"],
+    enum: ["Solo", "Duo", "Squad"],
     required: true,
   },
   leader: { type: String, required: true },
